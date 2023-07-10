@@ -205,6 +205,7 @@ nav {
    font-weight: 700;
 }
 
+/****** Cards base design ***********/
 .card {
    background-color: white;
    border-radius: 20px;
@@ -232,6 +233,7 @@ nav {
 .hebergements-and-populaires {
    display: flex;
    justify-content: space-between;
+   gap: 40px;
 }
 
 .hebergements-and-populaires section {
@@ -247,7 +249,10 @@ nav {
 
 /****** Populaires ***********/
 .populaires {
+   display: flex;
+   flex-direction: column;
    width: 32%;
+   gap: 30px;
 }
 
 .populaires-title {
@@ -256,9 +261,14 @@ nav {
    align-items: center;
 }
 
+.populaires-cards {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
 .populaires-cards .card {
    display: flex;
-   margin-top: 33px;
 }
 
 .populaires-cards img {
