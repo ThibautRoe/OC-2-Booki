@@ -381,8 +381,36 @@ nav {
 
 /****** Footer ***********/
 
-ul {
+footer {
+   background-color: var(--main-bg-color);
+   display: flex;
+   justify-content: space-between;
+}
+.footer-section {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   flex: 1;
+   padding: 20px;
+}
+
+.footer-title {
+   font-size: 1.125rem;
+   font-weight: 700;
+   margin: 0;
+}
+
+footer ul {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+footer ul,
+footer li {
    list-style: none;
+   margin: 0;
+   padding: 0;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
