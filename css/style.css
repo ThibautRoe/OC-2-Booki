@@ -60,7 +60,7 @@ nav {
    border-top: 2px solid var(--main-color);
 }
 
-.nav-item:hover > .nav-item-txt {
+.nav-item:hover>.nav-item-txt {
    color: var(--main-color);
 }
 
@@ -109,7 +109,7 @@ nav {
    flex-grow: 1;
    width: 0;
    height: 47px;
-   font-size: 1.125;
+   font-size: 1.125rem;
    font-weight: 700;
    border: 0;
    outline: none;
@@ -145,7 +145,7 @@ nav {
    margin-bottom: 35px;
 }
 
-.filters > p {
+.filters>p {
    display: flex;
    align-items: center;
    font-size: 1.125rem;
@@ -386,6 +386,7 @@ footer {
    display: flex;
    justify-content: space-between;
 }
+
 .footer-section {
    display: flex;
    flex-direction: column;
@@ -442,7 +443,8 @@ footer li {
    }
 
    .populaires-cards .card-title {
-      font-size: 0.8125rem; /* A VERIFIER */
+      font-size: 0.8125rem;
+      /* A VERIFIER */
    }
 
    .populaires-cards .card-subtitle {
