@@ -141,29 +141,29 @@ nav {
    display: flex;
    align-items: center;
    gap: 15px;
-   height: 50px;
    margin-bottom: 35px;
 }
 
 .filters>p {
    display: flex;
-   align-items: center;
    font-size: 1.125rem;
    font-weight: 700;
+   margin: 0;
 }
 
 .filter-buttons {
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
-   gap: 15px;
-   height: 100%;
+   column-gap: 15px;
+   row-gap: 20px;
 }
 
 .filter-button {
    display: flex;
    align-items: center;
+   height: 50px;
    gap: 10px;
-   height: 100%;
    padding: 0 19px;
    border: 2px solid var(--filter-border-color);
    border-radius: 25px;
@@ -291,6 +291,7 @@ nav {
 }
 
 .hebergements-cards a,
+.populaires-cards a,
 .activites-cards a {
    flex: 1;
 }
@@ -298,15 +299,18 @@ nav {
 .hebergements-cards .card {
    display: flex;
    flex-direction: column;
+   height: 100%;
 }
 
 .populaires-cards .card {
    display: flex;
+   height: 100%;
 }
 
 .activites-cards .card {
    display: flex;
    flex-direction: column;
+   height: 100%;
    padding: 0;
 }
 
@@ -332,10 +336,11 @@ nav {
 }
 
 .hebergements-cards .card-content {
-   height: 33%;
    margin: 10px 15px 10px 15px;
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
+   flex: 1;
 }
 
 .populaires-cards .card-content {
@@ -355,6 +360,9 @@ nav {
 }
 
 .activites-cards .card-title {
+   display: flex;
+   align-items: center;
+   flex: 1;
    margin: 20px 19px;
 }
 
@@ -421,6 +429,7 @@ footer li {
 @media (max-width: 1024px) {
    .hebergements-and-populaires {
       flex-direction: column;
+      gap: 50px;
    }
 
    .hebergements {
@@ -429,26 +438,23 @@ footer li {
 
    .populaires {
       width: 100%;
-      margin-top: 50px;
    }
 
    .populaires-cards {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      gap: 20px;
    }
 
-   .populaires-cards .card {
-      width: 30%;
+   .activites-cards img {
+      height: 200px;
    }
 
-   .populaires-cards .card-title {
-      font-size: 0.8125rem;
-      /* A VERIFIER */
-   }
-
-   .populaires-cards .card-subtitle {
-      font-size: 0.8125rem;
+   .filters {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
    }
 }
 
