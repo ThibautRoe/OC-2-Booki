@@ -476,6 +476,16 @@ footer li {
       margin: 30px;
    }
 
+   nav {
+      width: 100%;
+      height: 36px;
+      gap: 0;
+   }
+
+   nav a {
+      width: 50%;
+   }
+
    .nav-item {
       border-top: none;
       border-bottom: 2px solid transparent;
@@ -484,6 +494,11 @@ footer li {
    .nav-item:hover {
       border-top: none;
       border-bottom: 2px solid var(--main-color);
+   }
+
+   .nav-item-txt {
+      margin: 0 0 15px 0;
+      text-align: center;
    }
 
    .search-button-txt {
