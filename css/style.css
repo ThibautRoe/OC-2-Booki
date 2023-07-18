@@ -132,6 +132,7 @@ nav {
    border: 0;
    background-color: var(--main-color);
    padding: 15px 16px;
+   cursor: pointer;
 }
 
 #search-button-txt {
@@ -173,8 +174,13 @@ nav {
    gap: 15px;
 }
 
+.filter-buttons-section a {
+   display: flex;
+}
+
 .filter-button {
    display: flex;
+   flex: 1;
    align-items: center;
    height: 50px;
    gap: 10px;
@@ -569,6 +575,10 @@ footer li {
    }
 
    .filter-buttons-section {
+      width: 100%;
+   }
+
+   .filter-buttons-section a {
       width: 100%;
    }
 
