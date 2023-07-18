@@ -123,8 +123,8 @@ nav {
    padding: 0 24px;
 }
 
-.search-button-txt,
-.search-button-icon {
+#search-button-txt,
+#search-button-icon {
    height: 49px;
    font-size: 1.125rem;
    font-weight: 700;
@@ -134,16 +134,16 @@ nav {
    padding: 15px 16px;
 }
 
-.search-button-txt {
+#search-button-txt {
    border-radius: 0 15px 15px 0;
 }
 
-.search-button-icon {
+#search-button-icon {
    border-radius: 15px;
    display: none;
 }
 
-.search-button-icon i {
+#search-button-icon i {
    color: white;
 }
 
@@ -555,11 +555,11 @@ footer li {
       flex: 1;
    }
 
-   .search-button-txt {
+   #search-button-txt {
       display: none;
    }
 
-   .search-button-icon {
+   #search-button-icon {
       display: revert;
    }
 
