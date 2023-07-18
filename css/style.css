@@ -1,4 +1,11 @@
 /****** General ***********/
+
+/****** Add this to make the scrollbar (shown if mouse connected to Mac) not break the horizontal layout
+https://stackoverflow.com/a/44000322 ******/
+/* html {
+   width: 100vw;
+} */
+
 * {
    font-family: "Raleway", sans-serif;
    font-size: 1rem;
@@ -33,6 +40,7 @@ body {
    max-width: 1440px;
    padding-left: 50px;
    padding-right: 50px;
+   scrollbar-gutter: stable both-edges;
 }
 
 header {
