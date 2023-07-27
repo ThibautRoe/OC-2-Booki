@@ -40,7 +40,6 @@ body {
    max-width: 1440px;
    padding-left: 50px;
    padding-right: 50px;
-   scrollbar-gutter: stable both-edges;
 }
 
 header {
