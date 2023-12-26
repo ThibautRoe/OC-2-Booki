@@ -1,8 +1,8 @@
-# Booki
+# Booki - Travel agency
 
 Project #2 of OpenClassrooms certification / Fullstack Web Developer
 
-Develop a static HTML / CSS page based on a Figma design
+Develop a static HTML / CSS page based on a Figma design for a travel agency
 
 ## Preview
 
